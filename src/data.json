@@ -1,0 +1,76 @@
+[
+  {
+    "id": 1,
+    "company": "DocSumo",
+    "logo": "./images/docsumo.jpg",
+    "new": "new!",
+    "featured": "featured",
+    "position": "Senior Frontend Developer",
+    "timing": "Full Time",
+    "location": "Kathmandu",
+    "keywords": ["React", "Frontend", "JavaScript"],
+    "posted_on": "1687057261107"
+  },
+  {
+    "id": 2,
+    "company": "Fusemachines",
+    "logo": "./images/fusemachine.png",
+    "new": "new!",
+    "featured": "featured",
+    "position": "Full Stack Developer",
+    "timing": "Part Time",
+    "location": "Remote",
+    "keywords": ["Nodejs", "React", "SQL"],
+    "posted_on": "1686603737828"
+  },
+
+  {
+    "id": 3,
+    "company": "Naamche",
+    "logo": "./images/naamchee.png",
+    "new": "new!",
+    "featured": "featured",
+    "position": "Junior Backend Developer",
+    "timing": "Full Time",
+    "location": "Kathmandu",
+    "keywords": ["C#", ".NET Core", "MySQL"],
+    "posted_on": "1686996104190"
+  },
+  {
+    "id": 4,
+    "company": "Techkraft",
+    "logo": "./images/techkraft.png",
+    "new": "new!",
+    "featured": "featured",
+    "position": "Data Engineer",
+    "timing": "Full Time",
+    "location": "Lalitpur",
+    "keywords": ["Apache Spark", "SQL", "ETL"],
+    "posted_on": "1687140157619"
+  },
+  {
+    "id": 5,
+    "company": "JankariTech",
+    "logo": "./images/jankarriii.png",
+    "new": "new!",
+    "featured": "featured",
+    "position": "Senior QA Engineer",
+    "timing": "Full Time",
+    "location": "Pokhara",
+    "keywords": ["Selenium", "Cypress", "Python"],
+    "posted_on": "1686063779309"
+  },
+
+  {
+    "id": 6,
+    "company": "Proshore",
+    "logo": "./images/proshore.png",
+    "new": "new!",
+    "featured": "featured",
+    "position": "Frontend Intern",
+    "timing": "Full Time",
+    "location": "Pokhara",
+    "keywords": ["HTML", "CSS", "JavaScript"],
+    "posted_on": "1687230206051"
+  }
+]
