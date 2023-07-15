@@ -26,3 +26,4 @@ const Header = ({ keywords, deleteKeywords, clearAll }) => {
 };
 
 export default Header;
+
