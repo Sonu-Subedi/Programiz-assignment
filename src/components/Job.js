@@ -1,17 +1,8 @@
 import React, { useState } from "react";
 
 const Job = (props) => {
-  const {
-    id,
-    company,
-    logo,
-    featured,
-    position,
-    timing,
-    location,
-    keywords,
-    posted_on,
-  } = props.data;
+  const { company, logo, position, timing, location, keywords, posted_on } =
+    props.data;
 
   const [imageSrc, setImageSrc] = useState(logo);
 
@@ -30,7 +21,9 @@ const Job = (props) => {
           <div className="position">{position}</div>
           <div className="details">
             <span>{posted_on}</span>
+            <span>&nbsp;•&nbsp;</span>
             <span>{timing}</span>
+            <span>&nbsp;•&nbsp;</span>
             <span>{location}</span>
           </div>
         </div>
@@ -38,7 +31,7 @@ const Job = (props) => {
         <div className="part2">
           {keywords.map((key, id) => (
             <button onClick={() => props.setKeywords(key)} key={id}>
-              {key}
+              <span>{key}</span>
             </button>
           ))}
         </div>

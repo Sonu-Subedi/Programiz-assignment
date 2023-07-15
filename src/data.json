@@ -27,7 +27,7 @@
   {
     "id": 3,
     "company": "Naamche",
-    "logo": "./images/naamchee.png",
+    "logo": "./images/naamche.png",
     "new": "new!",
     "featured": "featured",
     "position": "Junior Backend Developer",
@@ -51,7 +51,7 @@
   {
     "id": 5,
     "company": "JankariTech",
-    "logo": "./images/jankarriii.png",
+    "logo": "./images/jankari-tech.png",
     "new": "new!",
     "featured": "featured",
     "position": "Senior QA Engineer",
