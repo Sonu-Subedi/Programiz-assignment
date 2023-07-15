@@ -8,7 +8,7 @@ const Jobs = ({ data, setKeywords, keywords }) => {
 
   const modifiedData = () => {
     if (keywords && keywords.length > 0) {
-      const newData = filteredData.filter((d) => {
+      const newData = data.filter((d) => {
         return keywords.every((key) => {
           return d.keywords.includes(key);
         });
