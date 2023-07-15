@@ -30,7 +30,11 @@ function App() {
           clearAll={clearAll}
         />
       )}
-      <Jobs Keywords data={data} setKeywords={addFilterKeywords} />
+      <Jobs
+        data={data}
+        setKeywords={addFilterKeywords}
+        keywords={filterKeywords}
+      />
     </div>
   );
 }
